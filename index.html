@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Практическая работа JS</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; line-height: 1.6; }
+        .task-block { border: 1px solid #ccc; padding: 15px; margin-bottom: 10px; border-radius: 8px; }
+        #target-text { font-weight: bold; font-size: 1.2em; }
+    </style>
+</head>
+<body>
+
+    <h2>Интерфейс для заданий 26-30</h2>
+    
+    <div class="task-block">
+        <p id="target-text">Этот текст изменит цвет</p>
+        <button id="btn-color">Изменить цвет (Задание 26)</button>
+    </div>
+
+    <div class="task-block">
+        <div id="item-to-hide" style="background: #ffdada; padding: 10px;">Блок, который можно скрыть</div>
+        <button id="btn-hide">Скрыть блок (Задание 27)</button>
+    </div>
+
+    <div class="task-block">
+        <input type="text" id="user-input" placeholder="Введите что-нибудь...">
+        <button id="btn-show">Показать значение (Задание 28)</button>
+        <button id="btn-clear">Отправить и очистить (Задание 30)</button>
+    </div>
+
+    <div class="task-block">
+        <button id="btn-add">Добавить в список (Задание 29)</button>
+        <ul id="my-list">
+            <li>Первый элемент</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
